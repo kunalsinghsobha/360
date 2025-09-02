@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: customer360
+Version: 0.1.1
+Summary: Customer 360 package (dedupe, unit freezing, rollups, scoring, Streamlit UI)
+Author: Kunal Singh
+Requires-Python: >=3.9
+Requires-Dist: pandas>=2.1
+Requires-Dist: numpy>=1.26
+Requires-Dist: rapidfuzz>=3.9
+Requires-Dist: python-dateutil>=2.9
+Requires-Dist: openpyxl>=3.1
+Requires-Dist: xlsxwriter>=3.2

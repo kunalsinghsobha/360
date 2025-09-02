@@ -1,0 +1,2 @@
+[console_scripts]
+customer360-run = run_pipeline:main
