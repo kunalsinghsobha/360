@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "customer360"
+version = "0.1.1"
+description = "Customer 360 package (dedupe, unit freezing, rollups, scoring, Streamlit UI)"
+authors = [{name = "Kunal Singh"}]
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.1",
+    "numpy>=1.26",
+    "rapidfuzz>=3.9",
+    "python-dateutil>=2.9",
+    "openpyxl>=3.1",
+    "xlsxwriter>=3.2",
+]
+
+[project.scripts]
+customer360-run = "run_pipeline:main"
+
+[tool.setuptools]
+packages = ["customer360"]
